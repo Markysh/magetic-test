@@ -33,8 +33,8 @@ body {
   background-size: contain;
 }
 
-.popup-close {
-  padding: 18px 0;
+#popup-close {
+  padding: 22px 0;
   color: #ffffff;
   cursor: pointer;
 }
@@ -52,10 +52,14 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+.visible {
+  display: block!important;
+}
 /* Popup */
 
 /* Sidebar menu */
-.sidebar-menu {
+#sidebar-menu {
   width: 5vw;
   background-color: #384756;
 }
@@ -78,11 +82,6 @@ body {
   margin: 15px 0;
   font-size: 20px;
   color:darkgray;
-}
-
-.content {
-  width: 95vw;
-  background-color: #f0f1f0;
 }
 /* SideBar Menu */
 
@@ -116,6 +115,11 @@ body {
 /* Header */
 
 /* Forms */
+.content {
+  width: 95vw;
+  background-color: #f0f1f0;
+}
+
 .line {
   width: 20vw;
   height: 15px;
@@ -177,6 +181,10 @@ body {
   border-bottom: 2px solid #384756;
 }
 /* Forms */
+
+.hidden {
+  display: none!important;
+}
 
 
 
